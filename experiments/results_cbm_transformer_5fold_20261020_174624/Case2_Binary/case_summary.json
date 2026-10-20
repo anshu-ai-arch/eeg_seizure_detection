@@ -1,0 +1,214 @@
+{
+  "case_key": "Case2_Binary",
+  "case_name": "Case 2: Binary Seizure Detection (Non-ictal A+B+C+D vs Ictal E)",
+  "num_classes": 2,
+  "n_samples": 500,
+  "mean_accuracy": 0.984,
+  "std_accuracy": 0.005477225575051666,
+  "mean_balanced_accuracy": 0.9862499999999998,
+  "std_balanced_accuracy": 0.0068465319688145974,
+  "mean_macro_f1": 0.9756636415754765,
+  "std_macro_f1": 0.007947802030049208,
+  "pooled_accuracy": 0.984,
+  "pooled_balanced_accuracy": 0.9862500000000001,
+  "pooled_macro_precision": 0.9657120965424768,
+  "pooled_macro_recall": 0.9862500000000001,
+  "pooled_macro_f1": 0.9755447408965299,
+  "pooled_confusion_matrix": [
+    [
+      393,
+      7
+    ],
+    [
+      1,
+      99
+    ]
+  ],
+  "pooled_concept_mae": [
+    0.31447466802282725,
+    0.469780055842828,
+    0.3327114815774839
+  ],
+  "concept_names": [
+    "C1_Paroxysmal_Spike_Index",
+    "C2_Hypersynchronous_Power_Surge",
+    "C3_Phase_Space_Texture_Disruption"
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "best_epoch": 35,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.98,
+      "test_balanced_accuracy": 0.9875,
+      "test_macro_precision": 0.9545454545454546,
+      "test_macro_recall": 0.9875,
+      "test_macro_f1": 0.9698613622664256,
+      "confusion_matrix": [
+        [
+          78,
+          2
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.24753984592156486,
+        0.6604394761193544,
+        0.2724222431099042
+      ],
+      "train_time_sec": 16.43,
+      "sensitivity": 1.0,
+      "specificity": 0.975,
+      "tp": 20,
+      "tn": 78,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "fold": 1,
+      "seed": 142,
+      "best_epoch": 34,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.98,
+      "test_balanced_accuracy": 0.9875,
+      "test_macro_precision": 0.9545454545454546,
+      "test_macro_recall": 0.9875,
+      "test_macro_f1": 0.9698613622664256,
+      "confusion_matrix": [
+        [
+          78,
+          2
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.6637565365154297,
+        0.21805340630933642,
+        0.2861883571743965
+      ],
+      "train_time_sec": 14.44,
+      "sensitivity": 1.0,
+      "specificity": 0.975,
+      "tp": 20,
+      "tn": 78,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "fold": 2,
+      "seed": 242,
+      "best_epoch": 34,
+      "best_val_acc": 0.975,
+      "test_accuracy": 0.99,
+      "test_balanced_accuracy": 0.99375,
+      "test_macro_precision": 0.9761904761904762,
+      "test_macro_recall": 0.99375,
+      "test_macro_f1": 0.9846602239607302,
+      "confusion_matrix": [
+        [
+          79,
+          1
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.28591734205547253,
+        0.20014569224440493,
+        0.2917539596220013
+      ],
+      "train_time_sec": 14.15,
+      "sensitivity": 1.0,
+      "specificity": 0.9875,
+      "tp": 20,
+      "tn": 79,
+      "fp": 1,
+      "fn": 0
+    },
+    {
+      "fold": 3,
+      "seed": 342,
+      "best_epoch": 35,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.98,
+      "test_balanced_accuracy": 0.9875,
+      "test_macro_precision": 0.9545454545454546,
+      "test_macro_recall": 0.9875,
+      "test_macro_f1": 0.9698613622664256,
+      "confusion_matrix": [
+        [
+          78,
+          2
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.2500434515706729,
+        0.7159162318950985,
+        0.2841015602601692
+      ],
+      "train_time_sec": 14.05,
+      "sensitivity": 1.0,
+      "specificity": 0.975,
+      "tp": 20,
+      "tn": 78,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "fold": 4,
+      "seed": 442,
+      "best_epoch": 11,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.99,
+      "test_balanced_accuracy": 0.975,
+      "test_macro_precision": 0.9938271604938271,
+      "test_macro_recall": 0.975,
+      "test_macro_f1": 0.9840738971173754,
+      "confusion_matrix": [
+        [
+          80,
+          0
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "concept_mae": [
+        0.1251161640509963,
+        0.5543454726459458,
+        0.5290912877209485
+      ],
+      "train_time_sec": 7.63,
+      "sensitivity": 0.95,
+      "specificity": 1.0,
+      "tp": 19,
+      "tn": 80,
+      "fp": 0,
+      "fn": 1
+    }
+  ],
+  "mean_sensitivity": 0.99,
+  "std_sensitivity": 0.022360679774997918,
+  "mean_specificity": 0.9824999999999999,
+  "std_specificity": 0.011180339887498964,
+  "pooled_sensitivity": 0.99,
+  "pooled_specificity": 0.9825,
+  "pooled_tp": 99,
+  "pooled_tn": 393,
+  "pooled_fp": 7,
+  "pooled_fn": 1
+}

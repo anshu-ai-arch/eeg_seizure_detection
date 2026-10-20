@@ -1,0 +1,216 @@
+{
+  "case_key": "Case1_3Class",
+  "case_name": "Case 1: Standard Three-Class (Healthy A+B vs Interictal C+D vs Ictal E)",
+  "num_classes": 3,
+  "n_samples": 500,
+  "mean_accuracy": 0.9480000000000001,
+  "std_accuracy": 0.04816637831516917,
+  "mean_balanced_accuracy": 0.9466666666666667,
+  "std_balanced_accuracy": 0.04022506128715726,
+  "mean_macro_f1": 0.9439827842828514,
+  "std_macro_f1": 0.05087074174353742,
+  "pooled_accuracy": 0.948,
+  "pooled_balanced_accuracy": 0.9466666666666667,
+  "pooled_macro_precision": 0.9397584742762408,
+  "pooled_macro_recall": 0.9466666666666667,
+  "pooled_macro_f1": 0.9430044078803634,
+  "pooled_confusion_matrix": [
+    [
+      191,
+      3,
+      6
+    ],
+    [
+      6,
+      189,
+      5
+    ],
+    [
+      1,
+      5,
+      94
+    ]
+  ],
+  "pooled_concept_mae": [
+    0.516285916501627,
+    0.3640038049276627,
+    0.42032767243747365
+  ],
+  "concept_names": [
+    "C1_Paroxysmal_Spike_Index",
+    "C2_Hypersynchronous_Power_Surge",
+    "C3_Phase_Space_Texture_Disruption"
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "best_epoch": 33,
+      "best_val_acc": 0.975,
+      "test_accuracy": 0.97,
+      "test_balanced_accuracy": 0.9666666666666667,
+      "test_macro_precision": 0.9754065040650407,
+      "test_macro_recall": 0.9666666666666667,
+      "test_macro_f1": 0.9707739791073124,
+      "confusion_matrix": [
+        [
+          39,
+          1,
+          0
+        ],
+        [
+          1,
+          39,
+          0
+        ],
+        [
+          0,
+          1,
+          19
+        ]
+      ],
+      "concept_mae": [
+        0.4705206426908262,
+        0.4261365746078081,
+        0.28091954278759657
+      ],
+      "train_time_sec": 14.12
+    },
+    {
+      "fold": 1,
+      "seed": 142,
+      "best_epoch": 35,
+      "best_val_acc": 1.0,
+      "test_accuracy": 1.0,
+      "test_balanced_accuracy": 1.0,
+      "test_macro_precision": 1.0,
+      "test_macro_recall": 1.0,
+      "test_macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.4524917739396915,
+        0.14927457358222454,
+        0.46783857652975713
+      ],
+      "train_time_sec": 14.12
+    },
+    {
+      "fold": 2,
+      "seed": 242,
+      "best_epoch": 14,
+      "best_val_acc": 0.875,
+      "test_accuracy": 0.87,
+      "test_balanced_accuracy": 0.8916666666666666,
+      "test_macro_precision": 0.858925862982658,
+      "test_macro_recall": 0.8916666666666666,
+      "test_macro_f1": 0.8634274348560064,
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          6
+        ],
+        [
+          2,
+          35,
+          3
+        ],
+        [
+          0,
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.4972914243489504,
+        0.37345895323902367,
+        0.45671842307318
+      ],
+      "train_time_sec": 8.91
+    },
+    {
+      "fold": 3,
+      "seed": 342,
+      "best_epoch": 35,
+      "best_val_acc": 0.975,
+      "test_accuracy": 0.95,
+      "test_balanced_accuracy": 0.9333333333333332,
+      "test_macro_precision": 0.960077519379845,
+      "test_macro_recall": 0.9333333333333332,
+      "test_macro_f1": 0.944258113535222,
+      "confusion_matrix": [
+        [
+          40,
+          0,
+          0
+        ],
+        [
+          2,
+          38,
+          0
+        ],
+        [
+          1,
+          2,
+          17
+        ]
+      ],
+      "concept_mae": [
+        0.652067469155736,
+        0.427826773817651,
+        0.5351411434082547
+      ],
+      "train_time_sec": 14.01
+    },
+    {
+      "fold": 4,
+      "seed": 442,
+      "best_epoch": 35,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.95,
+      "test_balanced_accuracy": 0.9416666666666668,
+      "test_macro_precision": 0.9414425682718366,
+      "test_macro_recall": 0.9416666666666668,
+      "test_macro_f1": 0.941454393915716,
+      "confusion_matrix": [
+        [
+          40,
+          0,
+          0
+        ],
+        [
+          1,
+          37,
+          2
+        ],
+        [
+          0,
+          2,
+          18
+        ]
+      ],
+      "concept_mae": [
+        0.5090582723729312,
+        0.4433221493916062,
+        0.3610206763885799
+      ],
+      "train_time_sec": 14.02
+    }
+  ]
+}

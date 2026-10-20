@@ -1,0 +1,214 @@
+{
+  "case_key": "Case3_Binary",
+  "case_name": "Case 3: Binary Interictal vs Ictal (D vs E, Exclude A, B, C)",
+  "num_classes": 2,
+  "n_samples": 200,
+  "mean_accuracy": 0.96,
+  "std_accuracy": 0.04183300132670378,
+  "mean_balanced_accuracy": 0.96,
+  "std_balanced_accuracy": 0.04183300132670378,
+  "mean_macro_f1": 0.9597729171413383,
+  "std_macro_f1": 0.042203366457020774,
+  "pooled_accuracy": 0.96,
+  "pooled_balanced_accuracy": 0.96,
+  "pooled_macro_precision": 0.9601840736294518,
+  "pooled_macro_recall": 0.96,
+  "pooled_macro_f1": 0.95999599959996,
+  "pooled_confusion_matrix": [
+    [
+      95,
+      5
+    ],
+    [
+      3,
+      97
+    ]
+  ],
+  "pooled_concept_mae": [
+    0.2675871917320183,
+    0.46217097466345874,
+    0.29066935525275767
+  ],
+  "concept_names": [
+    "C1_Paroxysmal_Spike_Index",
+    "C2_Hypersynchronous_Power_Surge",
+    "C3_Phase_Space_Texture_Disruption"
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "best_epoch": 35,
+      "best_val_acc": 1.0,
+      "test_accuracy": 1.0,
+      "test_balanced_accuracy": 1.0,
+      "test_macro_precision": 1.0,
+      "test_macro_recall": 1.0,
+      "test_macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.15209637585503516,
+        0.6780345702311024,
+        0.18928112087305635
+      ],
+      "train_time_sec": 5.49,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "tp": 20,
+      "tn": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "fold": 1,
+      "seed": 142,
+      "best_epoch": 35,
+      "best_val_acc": 0.9375,
+      "test_accuracy": 1.0,
+      "test_balanced_accuracy": 1.0,
+      "test_macro_precision": 1.0,
+      "test_macro_recall": 1.0,
+      "test_macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.6747219423414208,
+        0.1521708586253226,
+        0.25405242580454795
+      ],
+      "train_time_sec": 6.1,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "tp": 20,
+      "tn": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "fold": 2,
+      "seed": 242,
+      "best_epoch": 35,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.9,
+      "test_balanced_accuracy": 0.9,
+      "test_macro_precision": 0.9166666666666667,
+      "test_macro_recall": 0.9,
+      "test_macro_f1": 0.898989898989899,
+      "confusion_matrix": [
+        [
+          16,
+          4
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "concept_mae": [
+        0.20218955314485357,
+        0.18066072033252567,
+        0.16126792061841116
+      ],
+      "train_time_sec": 6.11,
+      "sensitivity": 1.0,
+      "specificity": 0.8,
+      "tp": 20,
+      "tn": 16,
+      "fp": 4,
+      "fn": 0
+    },
+    {
+      "fold": 3,
+      "seed": 342,
+      "best_epoch": 35,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.95,
+      "test_balanced_accuracy": 0.95,
+      "test_macro_precision": 0.9545454545454546,
+      "test_macro_recall": 0.95,
+      "test_macro_f1": 0.949874686716792,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          2,
+          18
+        ]
+      ],
+      "concept_mae": [
+        0.14839078306686132,
+        0.6609387309290469,
+        0.23319649109616875
+      ],
+      "train_time_sec": 5.65,
+      "sensitivity": 0.9,
+      "specificity": 1.0,
+      "tp": 18,
+      "tn": 20,
+      "fp": 0,
+      "fn": 2
+    },
+    {
+      "fold": 4,
+      "seed": 442,
+      "best_epoch": 35,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.95,
+      "test_balanced_accuracy": 0.95,
+      "test_macro_precision": 0.95,
+      "test_macro_recall": 0.95,
+      "test_macro_f1": 0.95,
+      "confusion_matrix": [
+        [
+          19,
+          1
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "concept_mae": [
+        0.16053730425192042,
+        0.6390499931992963,
+        0.6155488178716041
+      ],
+      "train_time_sec": 6.24,
+      "sensitivity": 0.95,
+      "specificity": 0.95,
+      "tp": 19,
+      "tn": 19,
+      "fp": 1,
+      "fn": 1
+    }
+  ],
+  "mean_sensitivity": 0.97,
+  "std_sensitivity": 0.04472135954999579,
+  "mean_specificity": 0.95,
+  "std_specificity": 0.08660254037844385,
+  "pooled_sensitivity": 0.97,
+  "pooled_specificity": 0.95,
+  "pooled_tp": 97,
+  "pooled_tn": 95,
+  "pooled_fp": 5,
+  "pooled_fn": 3
+}

@@ -1,0 +1,33 @@
+{
+  "fold": 3,
+  "seed": 342,
+  "best_epoch": 35,
+  "best_val_acc": 1.0,
+  "test_accuracy": 0.95,
+  "test_balanced_accuracy": 0.95,
+  "test_macro_precision": 0.9545454545454546,
+  "test_macro_recall": 0.95,
+  "test_macro_f1": 0.949874686716792,
+  "confusion_matrix": [
+    [
+      20,
+      0
+    ],
+    [
+      2,
+      18
+    ]
+  ],
+  "concept_mae": [
+    0.14839078306686132,
+    0.6609387309290469,
+    0.23319649109616875
+  ],
+  "train_time_sec": 5.65,
+  "sensitivity": 0.9,
+  "specificity": 1.0,
+  "tp": 18,
+  "tn": 20,
+  "fp": 0,
+  "fn": 2
+}
