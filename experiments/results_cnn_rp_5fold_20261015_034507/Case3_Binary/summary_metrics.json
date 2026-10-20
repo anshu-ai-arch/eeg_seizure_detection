@@ -1,0 +1,276 @@
+{
+  "case_key": "Case3_Binary",
+  "case_name": "Case 3: Binary (D vs E, Exclude A, B, C)",
+  "num_classes": 2,
+  "n_samples": 200,
+  "pooled_metrics": {
+    "accuracy": 0.96,
+    "balanced_accuracy": 0.96,
+    "macro_precision": 0.9607371794871795,
+    "macro_recall": 0.96,
+    "macro_f1": 0.959983993597439,
+    "confusion_matrix": [
+      [
+        98,
+        2
+      ],
+      [
+        6,
+        94
+      ]
+    ],
+    "sensitivity": 0.94,
+    "specificity": 0.98,
+    "total_false_positives": 2,
+    "total_false_negatives": 6
+  },
+  "mean_fold_metrics": {
+    "accuracy_mean": 0.9600000000000002,
+    "accuracy_std": 0.040620192023179784,
+    "balanced_accuracy_mean": 0.9600000000000002,
+    "balanced_accuracy_std": 0.04062019202317982,
+    "macro_f1_mean": 0.9599373668693311,
+    "macro_f1_std": 0.040701191851033346,
+    "sensitivity_mean": 0.9400000000000001,
+    "sensitivity_std": 0.05830951894845301,
+    "specificity_mean": 0.9800000000000001,
+    "specificity_std": 0.024494897427831803
+  },
+  "fold_results": [
+    {
+      "fold_idx": 0,
+      "random_seed": 42,
+      "test_accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "per_class": {
+        "interictal (D)": {
+          "class_index": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "ictal (E)": {
+          "class_index": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        }
+      },
+      "best_epoch": 27,
+      "best_val_accuracy": 1.0,
+      "best_val_loss": 0.026908358559012413,
+      "total_epochs_trained": 30,
+      "early_stopped": false,
+      "train_duration_sec": 8.252284049987793,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "true_positives": 20,
+      "true_negatives": 20,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "fold_idx": 1,
+      "random_seed": 142,
+      "test_accuracy": 0.975,
+      "balanced_accuracy": 0.975,
+      "macro_precision": 0.9761904761904762,
+      "macro_recall": 0.975,
+      "macro_f1": 0.9749843652282677,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "per_class": {
+        "interictal (D)": {
+          "class_index": 0,
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1": 0.975609756097561,
+          "support": 20
+        },
+        "ictal (E)": {
+          "class_index": 1,
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9743589743589743,
+          "support": 20
+        }
+      },
+      "best_epoch": 28,
+      "best_val_accuracy": 1.0,
+      "best_val_loss": 0.08899146318435669,
+      "total_epochs_trained": 30,
+      "early_stopped": false,
+      "train_duration_sec": 5.808847904205322,
+      "sensitivity": 0.95,
+      "specificity": 1.0,
+      "true_positives": 19,
+      "true_negatives": 20,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "fold_idx": 2,
+      "random_seed": 242,
+      "test_accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "per_class": {
+        "interictal (D)": {
+          "class_index": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "ictal (E)": {
+          "class_index": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        }
+      },
+      "best_epoch": 28,
+      "best_val_accuracy": 1.0,
+      "best_val_loss": 0.027621299028396606,
+      "total_epochs_trained": 30,
+      "early_stopped": false,
+      "train_duration_sec": 5.881058692932129,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "true_positives": 20,
+      "true_negatives": 20,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "fold_idx": 3,
+      "random_seed": 342,
+      "test_accuracy": 0.925,
+      "balanced_accuracy": 0.925,
+      "macro_precision": 0.9260651629072681,
+      "macro_recall": 0.925,
+      "macro_f1": 0.9249530956848031,
+      "confusion_matrix": [
+        [
+          19,
+          1
+        ],
+        [
+          2,
+          18
+        ]
+      ],
+      "per_class": {
+        "interictal (D)": {
+          "class_index": 0,
+          "precision": 0.9047619047619048,
+          "recall": 0.95,
+          "f1": 0.926829268292683,
+          "support": 20
+        },
+        "ictal (E)": {
+          "class_index": 1,
+          "precision": 0.9473684210526315,
+          "recall": 0.9,
+          "f1": 0.9230769230769231,
+          "support": 20
+        }
+      },
+      "best_epoch": 25,
+      "best_val_accuracy": 1.0,
+      "best_val_loss": 0.04270331934094429,
+      "total_epochs_trained": 30,
+      "early_stopped": false,
+      "train_duration_sec": 5.647220849990845,
+      "sensitivity": 0.9,
+      "specificity": 0.95,
+      "true_positives": 18,
+      "true_negatives": 19,
+      "false_positives": 1,
+      "false_negatives": 2
+    },
+    {
+      "fold_idx": 4,
+      "random_seed": 442,
+      "test_accuracy": 0.9,
+      "balanced_accuracy": 0.8999999999999999,
+      "macro_precision": 0.904040404040404,
+      "macro_recall": 0.8999999999999999,
+      "macro_f1": 0.899749373433584,
+      "confusion_matrix": [
+        [
+          19,
+          1
+        ],
+        [
+          3,
+          17
+        ]
+      ],
+      "per_class": {
+        "interictal (D)": {
+          "class_index": 0,
+          "precision": 0.8636363636363636,
+          "recall": 0.95,
+          "f1": 0.9047619047619048,
+          "support": 20
+        },
+        "ictal (E)": {
+          "class_index": 1,
+          "precision": 0.9444444444444444,
+          "recall": 0.85,
+          "f1": 0.8947368421052632,
+          "support": 20
+        }
+      },
+      "best_epoch": 30,
+      "best_val_accuracy": 1.0,
+      "best_val_loss": 0.03672290965914726,
+      "total_epochs_trained": 30,
+      "early_stopped": false,
+      "train_duration_sec": 5.817248821258545,
+      "sensitivity": 0.85,
+      "specificity": 0.95,
+      "true_positives": 17,
+      "true_negatives": 19,
+      "false_positives": 1,
+      "false_negatives": 3
+    }
+  ]
+}

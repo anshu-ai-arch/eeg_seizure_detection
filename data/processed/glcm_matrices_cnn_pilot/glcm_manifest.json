@@ -1,0 +1,198 @@
+{
+  "dataset_name": "Bonn EEG Normalized GLCM Matrices [8, 16, 16]",
+  "total_tensors": 5,
+  "is_pilot": true,
+  "preprocessing_config": {
+    "sampling_rate_hz": 173.61,
+    "expected_sample_count": 4097,
+    "norm_ddof": 0,
+    "ami_max_lag": 50,
+    "ami_n_bins": 32,
+    "fnn_max_dim": 10,
+    "fnn_r_tol": 15.0,
+    "grp_num_levels": 16,
+    "grp_quantization_mode": "k_minus_1",
+    "glcm_orientations_rad": [
+      0.0,
+      0.7853981633974483
+    ],
+    "glcm_offsets": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "channel_ordering": [
+      "theta_0deg_d_1",
+      "theta_0deg_d_2",
+      "theta_0deg_d_3",
+      "theta_0deg_d_4",
+      "theta_45deg_d_1",
+      "theta_45deg_d_2",
+      "theta_45deg_d_3",
+      "theta_45deg_d_4"
+    ],
+    "matrix_dimension": [
+      16,
+      16
+    ],
+    "normalization": "joint_probabilities_sum_to_1"
+  },
+  "records": [
+    {
+      "recording_id": "Z001",
+      "filename": "Z001.txt",
+      "subset": "A",
+      "class_label": "healthy",
+      "case1_label": "healthy",
+      "case2_label": "non_ictal",
+      "case3_label": null,
+      "matrix_relative_path": "matrices/Z001.npy",
+      "matrix_sha256": "bf20ab3fd22f3ffed61d165c5490232dcb0fe73f102d6a20b7e7a4505310a6f1",
+      "tensor_shape": [
+        8,
+        16,
+        16
+      ],
+      "channel_names": [
+        "theta_0deg_d_1",
+        "theta_0deg_d_2",
+        "theta_0deg_d_3",
+        "theta_0deg_d_4",
+        "theta_45deg_d_1",
+        "theta_45deg_d_2",
+        "theta_45deg_d_3",
+        "theta_45deg_d_4"
+      ],
+      "dtype": "float32",
+      "tau": 9,
+      "m": 5,
+      "min_val": 0.0,
+      "max_val": 0.1618468016386032
+    },
+    {
+      "recording_id": "Z002",
+      "filename": "Z002.txt",
+      "subset": "A",
+      "class_label": "healthy",
+      "case1_label": "healthy",
+      "case2_label": "non_ictal",
+      "case3_label": null,
+      "matrix_relative_path": "matrices/Z002.npy",
+      "matrix_sha256": "62bb195c1856b8b316e2bf6737e2b6b250f904fcd582caae0813d551cc6eee0c",
+      "tensor_shape": [
+        8,
+        16,
+        16
+      ],
+      "channel_names": [
+        "theta_0deg_d_1",
+        "theta_0deg_d_2",
+        "theta_0deg_d_3",
+        "theta_0deg_d_4",
+        "theta_45deg_d_1",
+        "theta_45deg_d_2",
+        "theta_45deg_d_3",
+        "theta_45deg_d_4"
+      ],
+      "dtype": "float32",
+      "tau": 9,
+      "m": 5,
+      "min_val": 0.0,
+      "max_val": 0.14667721092700958
+    },
+    {
+      "recording_id": "Z003",
+      "filename": "Z003.txt",
+      "subset": "A",
+      "class_label": "healthy",
+      "case1_label": "healthy",
+      "case2_label": "non_ictal",
+      "case3_label": null,
+      "matrix_relative_path": "matrices/Z003.npy",
+      "matrix_sha256": "18fdd206dde10c35be60048f5fd489da850a4405648742745a82439722fef5ba",
+      "tensor_shape": [
+        8,
+        16,
+        16
+      ],
+      "channel_names": [
+        "theta_0deg_d_1",
+        "theta_0deg_d_2",
+        "theta_0deg_d_3",
+        "theta_0deg_d_4",
+        "theta_45deg_d_1",
+        "theta_45deg_d_2",
+        "theta_45deg_d_3",
+        "theta_45deg_d_4"
+      ],
+      "dtype": "float32",
+      "tau": 9,
+      "m": 5,
+      "min_val": 0.0,
+      "max_val": 0.13385410606861115
+    },
+    {
+      "recording_id": "Z004",
+      "filename": "Z004.txt",
+      "subset": "A",
+      "class_label": "healthy",
+      "case1_label": "healthy",
+      "case2_label": "non_ictal",
+      "case3_label": null,
+      "matrix_relative_path": "matrices/Z004.npy",
+      "matrix_sha256": "5f83656ebc5b70988e0458a766e89a2b87a6ca0df89b33e28f8b6914bc72659b",
+      "tensor_shape": [
+        8,
+        16,
+        16
+      ],
+      "channel_names": [
+        "theta_0deg_d_1",
+        "theta_0deg_d_2",
+        "theta_0deg_d_3",
+        "theta_0deg_d_4",
+        "theta_45deg_d_1",
+        "theta_45deg_d_2",
+        "theta_45deg_d_3",
+        "theta_45deg_d_4"
+      ],
+      "dtype": "float32",
+      "tau": 9,
+      "m": 5,
+      "min_val": 0.0,
+      "max_val": 0.10804662108421326
+    },
+    {
+      "recording_id": "Z005",
+      "filename": "Z005.txt",
+      "subset": "A",
+      "class_label": "healthy",
+      "case1_label": "healthy",
+      "case2_label": "non_ictal",
+      "case3_label": null,
+      "matrix_relative_path": "matrices/Z005.npy",
+      "matrix_sha256": "fc970eb20a92165cfa523bb426d37f740c845b9fd1d887c7cd528e3e5d632377",
+      "tensor_shape": [
+        8,
+        16,
+        16
+      ],
+      "channel_names": [
+        "theta_0deg_d_1",
+        "theta_0deg_d_2",
+        "theta_0deg_d_3",
+        "theta_0deg_d_4",
+        "theta_45deg_d_1",
+        "theta_45deg_d_2",
+        "theta_45deg_d_3",
+        "theta_45deg_d_4"
+      ],
+      "dtype": "float32",
+      "tau": 7,
+      "m": 5,
+      "min_val": 0.0,
+      "max_val": 0.1696832776069641
+    }
+  ]
+}

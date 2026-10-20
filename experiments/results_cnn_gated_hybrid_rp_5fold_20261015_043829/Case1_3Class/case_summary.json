@@ -1,0 +1,181 @@
+{
+  "case_id": "Case1",
+  "case_name": "Case 1: Standard Three-Class (Healthy A+B vs Interictal C+D vs Ictal E)",
+  "num_classes": 3,
+  "n_samples": 500,
+  "mean_accuracy": 0.954,
+  "std_accuracy": 0.015165750888103114,
+  "mean_balanced_accuracy": 0.95,
+  "std_balanced_accuracy": 0.024295632895188782,
+  "mean_macro_f1": 0.9477720033014692,
+  "std_macro_f1": 0.020492926537523954,
+  "pooled_accuracy": 0.954,
+  "pooled_balanced_accuracy": 0.9500000000000001,
+  "pooled_macro_precision": 0.9458281568346457,
+  "pooled_macro_recall": 0.9500000000000001,
+  "pooled_macro_f1": 0.9478371606252388,
+  "pooled_confusion_matrix": [
+    [
+      190,
+      2,
+      8
+    ],
+    [
+      4,
+      194,
+      2
+    ],
+    [
+      5,
+      2,
+      93
+    ]
+  ],
+  "fold_metrics": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "best_epoch": 28,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.97,
+      "test_balanced_accuracy": 0.9666666666666667,
+      "test_macro_precision": 0.9597069597069597,
+      "test_macro_recall": 0.9666666666666667,
+      "test_macro_f1": 0.9629515282494597,
+      "confusion_matrix": [
+        [
+          38,
+          0,
+          2
+        ],
+        [
+          0,
+          40,
+          0
+        ],
+        [
+          1,
+          0,
+          19
+        ]
+      ],
+      "train_duration_sec": 18.986783981323242
+    },
+    {
+      "fold": 1,
+      "seed": 142,
+      "best_epoch": 8,
+      "best_val_acc": 0.975,
+      "test_accuracy": 0.95,
+      "test_balanced_accuracy": 0.9583333333333334,
+      "test_macro_precision": 0.9333333333333332,
+      "test_macro_recall": 0.9583333333333334,
+      "test_macro_f1": 0.9414289414289415,
+      "confusion_matrix": [
+        [
+          37,
+          0,
+          3
+        ],
+        [
+          0,
+          38,
+          2
+        ],
+        [
+          0,
+          0,
+          20
+        ]
+      ],
+      "train_duration_sec": 8.254424095153809
+    },
+    {
+      "fold": 2,
+      "seed": 242,
+      "best_epoch": 5,
+      "best_val_acc": 0.975,
+      "test_accuracy": 0.94,
+      "test_balanced_accuracy": 0.9166666666666666,
+      "test_macro_precision": 0.9410510715914272,
+      "test_macro_recall": 0.9166666666666666,
+      "test_macro_f1": 0.926541300336481,
+      "confusion_matrix": [
+        [
+          39,
+          0,
+          1
+        ],
+        [
+          1,
+          39,
+          0
+        ],
+        [
+          3,
+          1,
+          16
+        ]
+      ],
+      "train_duration_sec": 6.527670860290527
+    },
+    {
+      "fold": 3,
+      "seed": 342,
+      "best_epoch": 23,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.97,
+      "test_balanced_accuracy": 0.975,
+      "test_macro_precision": 0.9767441860465116,
+      "test_macro_recall": 0.975,
+      "test_macro_f1": 0.9749647942419027,
+      "confusion_matrix": [
+        [
+          40,
+          0,
+          0
+        ],
+        [
+          3,
+          37,
+          0
+        ],
+        [
+          0,
+          0,
+          20
+        ]
+      ],
+      "train_duration_sec": 16.609405994415283
+    },
+    {
+      "fold": 4,
+      "seed": 442,
+      "best_epoch": 18,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.94,
+      "test_balanced_accuracy": 0.9333333333333332,
+      "test_macro_precision": 0.9344018437041693,
+      "test_macro_recall": 0.9333333333333332,
+      "test_macro_f1": 0.9329734522505606,
+      "confusion_matrix": [
+        [
+          36,
+          2,
+          2
+        ],
+        [
+          0,
+          40,
+          0
+        ],
+        [
+          1,
+          1,
+          18
+        ]
+      ],
+      "train_duration_sec": 13.29796314239502
+    }
+  ]
+}

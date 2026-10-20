@@ -1,0 +1,47 @@
+{
+  "fold_idx": 3,
+  "random_seed": 342,
+  "test_accuracy": 0.925,
+  "balanced_accuracy": 0.925,
+  "macro_precision": 0.9260651629072681,
+  "macro_recall": 0.925,
+  "macro_f1": 0.9249530956848031,
+  "confusion_matrix": [
+    [
+      19,
+      1
+    ],
+    [
+      2,
+      18
+    ]
+  ],
+  "per_class": {
+    "interictal (D)": {
+      "class_index": 0,
+      "precision": 0.9047619047619048,
+      "recall": 0.95,
+      "f1": 0.926829268292683,
+      "support": 20
+    },
+    "ictal (E)": {
+      "class_index": 1,
+      "precision": 0.9473684210526315,
+      "recall": 0.9,
+      "f1": 0.9230769230769231,
+      "support": 20
+    }
+  },
+  "best_epoch": 25,
+  "best_val_accuracy": 1.0,
+  "best_val_loss": 0.04270331934094429,
+  "total_epochs_trained": 30,
+  "early_stopped": false,
+  "train_duration_sec": 5.647220849990845,
+  "sensitivity": 0.9,
+  "specificity": 0.95,
+  "true_positives": 18,
+  "true_negatives": 19,
+  "false_positives": 1,
+  "false_negatives": 2
+}

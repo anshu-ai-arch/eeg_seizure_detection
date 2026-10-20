@@ -1,0 +1,57 @@
+{
+  "case_key": "Case3_Binary",
+  "case_name": "Case 3: Binary (D vs E, Exclude A, B, C)",
+  "num_classes": 2,
+  "device": "mps",
+  "total_training_duration_sec": 0.99,
+  "avg_epoch_duration_sec": 0.165,
+  "total_epochs_trained": 6,
+  "best_epoch": 1,
+  "best_val_accuracy": 0.5,
+  "final_learning_rate": 0.0025,
+  "test_metrics": {
+    "test_loss": 1.06762,
+    "test_accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.33333,
+    "macro_precision": 0.25,
+    "macro_recall": 0.5,
+    "confusion_matrix": [
+      [
+        0,
+        20
+      ],
+      [
+        0,
+        20
+      ]
+    ],
+    "classification_report": {
+      "interictal (D)": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 20.0
+      },
+      "ictal (E)": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 20.0
+      },
+      "accuracy": 0.5,
+      "macro avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 40.0
+      },
+      "weighted avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 40.0
+      }
+    }
+  }
+}

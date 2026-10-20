@@ -1,0 +1,29 @@
+{
+  "fold": 1,
+  "seed": 142,
+  "best_epoch": 31,
+  "best_val_acc": 1.0,
+  "test_accuracy": 1.0,
+  "test_balanced_accuracy": 1.0,
+  "test_macro_precision": 1.0,
+  "test_macro_recall": 1.0,
+  "test_macro_f1": 1.0,
+  "confusion_matrix": [
+    [
+      40,
+      0,
+      0
+    ],
+    [
+      0,
+      40,
+      0
+    ],
+    [
+      0,
+      0,
+      20
+    ]
+  ],
+  "train_duration_sec": 13.808937072753906
+}

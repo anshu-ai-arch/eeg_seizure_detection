@@ -1,0 +1,176 @@
+{
+  "case_key": "Case2_Binary",
+  "case_name": "Case 2: Binary (A+B+C+D vs E)",
+  "num_classes": 2,
+  "n_samples": 500,
+  "pooled_metrics": {
+    "accuracy": 0.96,
+    "balanced_accuracy": 0.96,
+    "macro_precision": 0.9234167893961709,
+    "macro_recall": 0.96,
+    "macro_f1": 0.9401398333492961,
+    "confusion_matrix": [
+      [
+        384,
+        16
+      ],
+      [
+        4,
+        96
+      ]
+    ],
+    "sensitivity": 0.96,
+    "specificity": 0.96,
+    "total_false_positives": 16,
+    "total_false_negatives": 4
+  },
+  "mean_fold_metrics": {
+    "accuracy_mean": 0.9600000000000002,
+    "accuracy_std": 0.03405877273185278,
+    "balanced_accuracy_mean": 0.96,
+    "balanced_accuracy_std": 0.022569337606584743,
+    "macro_f1_mean": 0.9428529777767771,
+    "macro_f1_std": 0.04597998100947605,
+    "sensitivity_mean": 0.96,
+    "sensitivity_std": 0.03741657386773941,
+    "specificity_mean": 0.96,
+    "specificity_std": 0.04568916720624268
+  },
+  "fold_results": [
+    {
+      "fold_idx": 0,
+      "test_accuracy": 0.91,
+      "balanced_accuracy": 0.94375,
+      "macro_precision": 0.8448275862068966,
+      "macro_recall": 0.94375,
+      "macro_f1": 0.8783619408028112,
+      "confusion_matrix": [
+        [
+          71,
+          9
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "best_epoch": 9,
+      "best_val_accuracy": 0.975,
+      "train_duration_sec": 8.594866752624512,
+      "sensitivity": 1.0,
+      "specificity": 0.8875,
+      "true_positives": 20,
+      "true_negatives": 71,
+      "false_positives": 9,
+      "false_negatives": 0
+    },
+    {
+      "fold_idx": 1,
+      "test_accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "best_epoch": 16,
+      "best_val_accuracy": 1.0,
+      "train_duration_sec": 11.325330018997192,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "true_positives": 20,
+      "true_negatives": 80,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "fold_idx": 2,
+      "test_accuracy": 0.93,
+      "balanced_accuracy": 0.9375,
+      "macro_precision": 0.8733333333333333,
+      "macro_recall": 0.9375,
+      "macro_f1": 0.8996415770609318,
+      "confusion_matrix": [
+        [
+          74,
+          6
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "best_epoch": 13,
+      "best_val_accuracy": 0.975,
+      "train_duration_sec": 9.654417753219604,
+      "sensitivity": 0.95,
+      "specificity": 0.925,
+      "true_positives": 19,
+      "true_negatives": 74,
+      "false_positives": 6,
+      "false_negatives": 1
+    },
+    {
+      "fold_idx": 3,
+      "test_accuracy": 0.98,
+      "balanced_accuracy": 0.95,
+      "macro_precision": 0.9878048780487805,
+      "macro_recall": 0.95,
+      "macro_f1": 0.9675113710201428,
+      "confusion_matrix": [
+        [
+          80,
+          0
+        ],
+        [
+          2,
+          18
+        ]
+      ],
+      "best_epoch": 17,
+      "best_val_accuracy": 1.0,
+      "train_duration_sec": 11.655928134918213,
+      "sensitivity": 0.9,
+      "specificity": 1.0,
+      "true_positives": 18,
+      "true_negatives": 80,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "fold_idx": 4,
+      "test_accuracy": 0.98,
+      "balanced_accuracy": 0.96875,
+      "macro_precision": 0.96875,
+      "macro_recall": 0.96875,
+      "macro_f1": 0.96875,
+      "confusion_matrix": [
+        [
+          79,
+          1
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "best_epoch": 12,
+      "best_val_accuracy": 1.0,
+      "train_duration_sec": 9.470672130584717,
+      "sensitivity": 0.95,
+      "specificity": 0.9875,
+      "true_positives": 19,
+      "true_negatives": 79,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  ]
+}

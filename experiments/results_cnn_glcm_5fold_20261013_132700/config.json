@@ -1,0 +1,67 @@
+{
+  "experiment_name": "Bonn EEG GLCM-CNN 5-Fold Stratified Cross-Validation",
+  "evaluation_protocol": "StratifiedKFold(n_splits=5, shuffle=True, random_state=42) with 90:10 Inner Stratified Validation",
+  "hardware": {
+    "device": "mps",
+    "machine": "MacBook Air M1 (8 GB RAM)",
+    "pytorch_version": "2.12.0",
+    "python_version": "3.13.9"
+  },
+  "cnn_architecture": {
+    "model_name": "BonnGLCMCNN",
+    "input_shape": [8, 16, 16],
+    "conv_blocks": [
+      {"block": 1, "in_channels": 8, "out_channels": 16, "kernel": 3, "stride": 1, "padding": 1, "pool": [2, 2]},
+      {"block": 2, "in_channels": 16, "out_channels": 32, "kernel": 3, "stride": 1, "padding": 1, "pool": [2, 2]},
+      {"block": 3, "in_channels": 32, "out_channels": 64, "kernel": 3, "stride": 1, "padding": 1, "pool": [2, 2]}
+    ],
+    "head": "AdaptiveAvgPool2D(1, 1) -> Dense(64, ReLU) -> Dropout(0.4) -> Dense(num_classes)"
+  },
+  "training_hyperparameters": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "batch_size": 16,
+    "max_epochs_per_fold": 30,
+    "loss": "Weighted Cross-Entropy (weights computed strictly on gradient-training subset)",
+    "scheduler": {
+      "type": "ReduceLROnPlateau",
+      "mode": "max",
+      "factor": 0.5,
+      "patience": 4,
+      "min_lr": 1e-6
+    },
+    "early_stopping": {
+      "monitor": "val_accuracy",
+      "patience": 5,
+      "mode": "strict improvement (ties keep first best)",
+      "restore_best_weights": true
+    }
+  },
+  "cases": {
+    "Case1_3Class": {
+      "classes": {"0": "A (healthy open)", "1": "B (healthy closed)", "2": "C+D (interictal)"},
+      "total_samples": 400,
+      "test_per_fold": 80,
+      "dev_per_fold": 320,
+      "subtrain_per_fold": 288,
+      "val_per_fold": 32
+    },
+    "Case2_Binary": {
+      "classes": {"0": "A+B+C+D (non-ictal)", "1": "E (ictal)"},
+      "total_samples": 500,
+      "test_per_fold": 100,
+      "dev_per_fold": 400,
+      "subtrain_per_fold": 360,
+      "val_per_fold": 40
+    },
+    "Case3_Binary": {
+      "classes": {"0": "D (interictal)", "1": "E (ictal)"},
+      "total_samples": 200,
+      "test_per_fold": 40,
+      "dev_per_fold": 160,
+      "subtrain_per_fold": 144,
+      "val_per_fold": 16
+    }
+  }
+}

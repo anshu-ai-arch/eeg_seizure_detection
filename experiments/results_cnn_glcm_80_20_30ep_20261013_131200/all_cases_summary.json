@@ -1,0 +1,186 @@
+{
+  "Case1_3Class": {
+    "case_key": "Case1_3Class",
+    "case_name": "Case 1: Three-Class (A vs B vs C+D, Exclude E)",
+    "num_classes": 3,
+    "device": "mps",
+    "total_training_duration_sec": 3.66,
+    "avg_epoch_duration_sec": 0.332,
+    "total_epochs_trained": 11,
+    "best_epoch": 6,
+    "best_val_accuracy": 0.84375,
+    "final_learning_rate": 0.0025,
+    "test_metrics": {
+      "test_loss": 0.52249,
+      "test_accuracy": 0.75,
+      "balanced_accuracy": 0.69167,
+      "macro_f1": 0.65751,
+      "macro_precision": 0.69499,
+      "macro_recall": 0.69167,
+      "confusion_matrix": [
+        [
+          5,
+          15,
+          0
+        ],
+        [
+          2,
+          18,
+          0
+        ],
+        [
+          2,
+          1,
+          37
+        ]
+      ],
+      "classification_report": {
+        "A (healthy open)": {
+          "precision": 0.5555555555555556,
+          "recall": 0.25,
+          "f1-score": 0.3448275862068966,
+          "support": 20.0
+        },
+        "B (healthy closed)": {
+          "precision": 0.5294117647058824,
+          "recall": 0.9,
+          "f1-score": 0.6666666666666666,
+          "support": 20.0
+        },
+        "C+D (interictal)": {
+          "precision": 1.0,
+          "recall": 0.925,
+          "f1-score": 0.961038961038961,
+          "support": 40.0
+        },
+        "accuracy": 0.75,
+        "macro avg": {
+          "precision": 0.6949891067538126,
+          "recall": 0.6916666666666668,
+          "f1-score": 0.6575110713041749,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.7712418300653595,
+          "recall": 0.75,
+          "f1-score": 0.7333930437378713,
+          "support": 80.0
+        }
+      }
+    }
+  },
+  "Case2_Binary": {
+    "case_key": "Case2_Binary",
+    "case_name": "Case 2: Binary (A+B+C+D vs E)",
+    "num_classes": 2,
+    "device": "mps",
+    "total_training_duration_sec": 5.36,
+    "avg_epoch_duration_sec": 0.536,
+    "total_epochs_trained": 10,
+    "best_epoch": 5,
+    "best_val_accuracy": 0.975,
+    "final_learning_rate": 0.0025,
+    "test_metrics": {
+      "test_loss": 0.27018,
+      "test_accuracy": 0.9,
+      "balanced_accuracy": 0.8625,
+      "macro_f1": 0.84931,
+      "macro_precision": 0.838,
+      "macro_recall": 0.8625,
+      "confusion_matrix": [
+        [
+          74,
+          6
+        ],
+        [
+          4,
+          16
+        ]
+      ],
+      "classification_report": {
+        "non_ictal (A+B+C+D)": {
+          "precision": 0.9487179487179487,
+          "recall": 0.925,
+          "f1-score": 0.9367088607594937,
+          "support": 80.0
+        },
+        "ictal (E)": {
+          "precision": 0.7272727272727273,
+          "recall": 0.8,
+          "f1-score": 0.7619047619047619,
+          "support": 20.0
+        },
+        "accuracy": 0.9,
+        "macro avg": {
+          "precision": 0.837995337995338,
+          "recall": 0.8625,
+          "f1-score": 0.8493068113321278,
+          "support": 100.0
+        },
+        "weighted avg": {
+          "precision": 0.9044289044289044,
+          "recall": 0.9,
+          "f1-score": 0.9017480409885473,
+          "support": 100.0
+        }
+      }
+    }
+  },
+  "Case3_Binary": {
+    "case_key": "Case3_Binary",
+    "case_name": "Case 3: Binary (D vs E, Exclude A, B, C)",
+    "num_classes": 2,
+    "device": "mps",
+    "total_training_duration_sec": 0.99,
+    "avg_epoch_duration_sec": 0.165,
+    "total_epochs_trained": 6,
+    "best_epoch": 1,
+    "best_val_accuracy": 0.5,
+    "final_learning_rate": 0.0025,
+    "test_metrics": {
+      "test_loss": 1.06762,
+      "test_accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.33333,
+      "macro_precision": 0.25,
+      "macro_recall": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "classification_report": {
+        "interictal (D)": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "ictal (E)": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 20.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1-score": 0.3333333333333333,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1-score": 0.3333333333333333,
+          "support": 40.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+recording_id,true_label,true_class_name,predicted_label,predicted_class_name,correct,prob_class_0,prob_class_1,prob_class_2
+F003,2,C+D (interictal),2,C+D (interictal),1,0.22717,0.029945,0.742885
+F011,2,C+D (interictal),2,C+D (interictal),1,0.058169,0.003389,0.938442
+F024,2,C+D (interictal),2,C+D (interictal),1,0.243251,0.031995,0.724754
+F038,2,C+D (interictal),2,C+D (interictal),1,0.023779,0.000878,0.975343
+F039,2,C+D (interictal),2,C+D (interictal),1,0.000661,4e-06,0.999335
+F052,2,C+D (interictal),2,C+D (interictal),1,0.045617,0.002194,0.952189
+F053,2,C+D (interictal),2,C+D (interictal),1,0.006616,0.000117,0.993266
+F068,2,C+D (interictal),2,C+D (interictal),1,0.057154,0.003213,0.939633
+F069,2,C+D (interictal),2,C+D (interictal),1,0.119831,0.009642,0.870527
+F070,2,C+D (interictal),0,A (healthy open),0,0.634109,0.220945,0.144946
+F082,2,C+D (interictal),2,C+D (interictal),1,0.008361,0.000182,0.991457
+F090,2,C+D (interictal),2,C+D (interictal),1,0.006581,0.000121,0.993298
+F093,2,C+D (interictal),2,C+D (interictal),1,0.028776,0.001173,0.97005
+F096,2,C+D (interictal),2,C+D (interictal),1,0.359359,0.059018,0.581623
+F097,2,C+D (interictal),0,A (healthy open),0,0.535063,0.149792,0.315145
+F098,2,C+D (interictal),2,C+D (interictal),1,0.228395,0.020635,0.75097
+N004,2,C+D (interictal),2,C+D (interictal),1,0.027199,0.000983,0.971818
+N016,2,C+D (interictal),2,C+D (interictal),1,0.12331,0.010888,0.865802
+N023,2,C+D (interictal),2,C+D (interictal),1,0.036681,0.001704,0.961615
+N024,2,C+D (interictal),2,C+D (interictal),1,0.019855,0.000662,0.979482
+N026,2,C+D (interictal),2,C+D (interictal),1,0.008197,0.00016,0.991643
+N028,2,C+D (interictal),2,C+D (interictal),1,0.166963,0.011189,0.821847
+N029,2,C+D (interictal),2,C+D (interictal),1,0.002363,2.4e-05,0.997613
+N030,2,C+D (interictal),2,C+D (interictal),1,0.004645,7e-05,0.995285
+N039,2,C+D (interictal),2,C+D (interictal),1,0.283785,0.042506,0.673709
+N044,2,C+D (interictal),2,C+D (interictal),1,0.015839,0.000474,0.983688
+N045,2,C+D (interictal),2,C+D (interictal),1,0.044008,0.002086,0.953907
+N047,2,C+D (interictal),2,C+D (interictal),1,0.090635,0.00637,0.902995
+N048,2,C+D (interictal),1,B (healthy closed),0,0.399638,0.589409,0.010953
+N060,2,C+D (interictal),2,C+D (interictal),1,0.085436,0.00484,0.909724
+N061,2,C+D (interictal),2,C+D (interictal),1,0.095966,0.007133,0.896901
+N064,2,C+D (interictal),2,C+D (interictal),1,0.014355,0.000392,0.985253
+N072,2,C+D (interictal),2,C+D (interictal),1,0.045891,0.001885,0.952224
+N073,2,C+D (interictal),2,C+D (interictal),1,0.063153,0.003653,0.933194
+N075,2,C+D (interictal),2,C+D (interictal),1,0.081525,0.005653,0.912823
+N083,2,C+D (interictal),2,C+D (interictal),1,0.081356,0.005726,0.912918
+N084,2,C+D (interictal),2,C+D (interictal),1,0.386481,0.042998,0.570521
+N094,2,C+D (interictal),2,C+D (interictal),1,0.039504,0.001796,0.958701
+N099,2,C+D (interictal),2,C+D (interictal),1,0.000703,4e-06,0.999293
+N100,2,C+D (interictal),2,C+D (interictal),1,0.002828,3.3e-05,0.997138
+O005,1,B (healthy closed),1,B (healthy closed),1,0.353194,0.642395,0.004411
+O007,1,B (healthy closed),0,A (healthy open),0,0.587228,0.201222,0.21155
+O008,1,B (healthy closed),1,B (healthy closed),1,0.467307,0.513436,0.019257
+O012,1,B (healthy closed),1,B (healthy closed),1,0.379066,0.615794,0.00514
+O023,1,B (healthy closed),1,B (healthy closed),1,0.401398,0.589055,0.009546
+O028,1,B (healthy closed),1,B (healthy closed),1,0.477297,0.504779,0.017924
+O033,1,B (healthy closed),1,B (healthy closed),1,0.364341,0.629766,0.005893
+O034,1,B (healthy closed),1,B (healthy closed),1,0.381927,0.611182,0.006891
+O035,1,B (healthy closed),1,B (healthy closed),1,0.318107,0.679583,0.002309
+O037,1,B (healthy closed),1,B (healthy closed),1,0.313251,0.684706,0.002043
+O041,1,B (healthy closed),1,B (healthy closed),1,0.318197,0.679578,0.002224
+O044,1,B (healthy closed),1,B (healthy closed),1,0.411734,0.580119,0.008147
+O048,1,B (healthy closed),0,A (healthy open),0,0.629294,0.324191,0.046515
+O062,1,B (healthy closed),1,B (healthy closed),1,0.360264,0.634631,0.005106
+O072,1,B (healthy closed),1,B (healthy closed),1,0.36238,0.631811,0.005809
+O073,1,B (healthy closed),1,B (healthy closed),1,0.370687,0.622396,0.006917
+O081,1,B (healthy closed),1,B (healthy closed),1,0.364638,0.630149,0.005213
+O096,1,B (healthy closed),1,B (healthy closed),1,0.352416,0.643617,0.003967
+O097,1,B (healthy closed),1,B (healthy closed),1,0.358178,0.636797,0.005024
+O098,1,B (healthy closed),1,B (healthy closed),1,0.440304,0.545424,0.014272
+Z002,0,A (healthy open),1,B (healthy closed),0,0.384906,0.608173,0.006921
+Z003,0,A (healthy open),0,A (healthy open),1,0.516915,0.44742,0.035665
+Z015,0,A (healthy open),0,A (healthy open),1,0.555474,0.415638,0.028888
+Z021,0,A (healthy open),0,A (healthy open),1,0.571177,0.373309,0.055515
+Z022,0,A (healthy open),0,A (healthy open),1,0.563448,0.372316,0.064237
+Z024,0,A (healthy open),1,B (healthy closed),0,0.334962,0.661604,0.003434
+Z030,0,A (healthy open),1,B (healthy closed),0,0.335155,0.661854,0.002991
+Z038,0,A (healthy open),1,B (healthy closed),0,0.370301,0.623064,0.006636
+Z052,0,A (healthy open),1,B (healthy closed),0,0.409619,0.583674,0.006707
+Z053,0,A (healthy open),1,B (healthy closed),0,0.462067,0.520598,0.017335
+Z061,0,A (healthy open),1,B (healthy closed),0,0.372433,0.619864,0.007704
+Z064,0,A (healthy open),1,B (healthy closed),0,0.358443,0.636253,0.005304
+Z072,0,A (healthy open),1,B (healthy closed),0,0.367582,0.625951,0.006467
+Z075,0,A (healthy open),0,A (healthy open),1,0.513137,0.445685,0.041179
+Z083,0,A (healthy open),1,B (healthy closed),0,0.427825,0.558045,0.014129
+Z085,0,A (healthy open),1,B (healthy closed),0,0.421892,0.566118,0.01199
+Z087,0,A (healthy open),1,B (healthy closed),0,0.375453,0.617643,0.006904
+Z088,0,A (healthy open),1,B (healthy closed),0,0.420068,0.566473,0.013459
+Z092,0,A (healthy open),1,B (healthy closed),0,0.433955,0.549366,0.016679
+Z093,0,A (healthy open),1,B (healthy closed),0,0.386113,0.606335,0.007552

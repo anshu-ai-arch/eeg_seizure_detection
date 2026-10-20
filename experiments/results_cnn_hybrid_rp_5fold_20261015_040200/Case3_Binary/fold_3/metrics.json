@@ -1,0 +1,27 @@
+{
+  "fold_idx": 3,
+  "test_accuracy": 0.95,
+  "balanced_accuracy": 0.95,
+  "macro_precision": 0.95,
+  "macro_recall": 0.95,
+  "macro_f1": 0.95,
+  "confusion_matrix": [
+    [
+      19,
+      1
+    ],
+    [
+      1,
+      19
+    ]
+  ],
+  "best_epoch": 26,
+  "best_val_accuracy": 1.0,
+  "train_duration_sec": 5.819343090057373,
+  "sensitivity": 0.95,
+  "specificity": 0.95,
+  "true_positives": 19,
+  "true_negatives": 19,
+  "false_positives": 1,
+  "false_negatives": 1
+}

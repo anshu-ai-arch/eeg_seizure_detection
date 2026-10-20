@@ -1,0 +1,179 @@
+{
+  "case_id": "Case2",
+  "case_name": "Case 2: Binary Seizure Detection (Non-ictal A+B+C+D vs Ictal E)",
+  "num_classes": 2,
+  "n_samples": 500,
+  "mean_accuracy": 0.9620000000000001,
+  "std_accuracy": 0.03768288736283353,
+  "mean_balanced_accuracy": 0.9649999999999999,
+  "std_balanced_accuracy": 0.029514297382794003,
+  "mean_macro_f1": 0.945478842019672,
+  "std_macro_f1": 0.05102295677337572,
+  "pooled_accuracy": 0.962,
+  "pooled_balanced_accuracy": 0.965,
+  "pooled_macro_precision": 0.9253275708307608,
+  "pooled_macro_recall": 0.965,
+  "pooled_macro_f1": 0.9433279047431562,
+  "pooled_confusion_matrix": [
+    [
+      384,
+      16
+    ],
+    [
+      3,
+      97
+    ]
+  ],
+  "fold_metrics": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "best_epoch": 9,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.9,
+      "test_balanced_accuracy": 0.91875,
+      "test_macro_precision": 0.8323412698412699,
+      "test_macro_recall": 0.91875,
+      "test_macro_f1": 0.8629385964912281,
+      "confusion_matrix": [
+        [
+          71,
+          9
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "train_duration_sec": 8.317282676696777,
+      "sensitivity": 0.95,
+      "specificity": 0.8875,
+      "tp": 19,
+      "tn": 71,
+      "fp": 9,
+      "fn": 1
+    },
+    {
+      "fold": 1,
+      "seed": 142,
+      "best_epoch": 21,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.97,
+      "test_balanced_accuracy": 0.9624999999999999,
+      "test_macro_precision": 0.9460518384569018,
+      "test_macro_recall": 0.9624999999999999,
+      "test_macro_f1": 0.9539806718821906,
+      "confusion_matrix": [
+        [
+          78,
+          2
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "train_duration_sec": 14.418216943740845,
+      "sensitivity": 0.95,
+      "specificity": 0.975,
+      "tp": 19,
+      "tn": 78,
+      "fp": 2,
+      "fn": 1
+    },
+    {
+      "fold": 2,
+      "seed": 242,
+      "best_epoch": 13,
+      "best_val_acc": 0.975,
+      "test_accuracy": 0.96,
+      "test_balanced_accuracy": 0.975,
+      "test_macro_precision": 0.9166666666666667,
+      "test_macro_recall": 0.975,
+      "test_macro_f1": 0.9417249417249417,
+      "confusion_matrix": [
+        [
+          76,
+          4
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "train_duration_sec": 10.33550500869751,
+      "sensitivity": 1.0,
+      "specificity": 0.95,
+      "tp": 20,
+      "tn": 76,
+      "fp": 4,
+      "fn": 0
+    },
+    {
+      "fold": 3,
+      "seed": 342,
+      "best_epoch": 27,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.98,
+      "test_balanced_accuracy": 0.96875,
+      "test_macro_precision": 0.96875,
+      "test_macro_recall": 0.96875,
+      "test_macro_f1": 0.96875,
+      "confusion_matrix": [
+        [
+          79,
+          1
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "train_duration_sec": 15.55248212814331,
+      "sensitivity": 0.95,
+      "specificity": 0.9875,
+      "tp": 19,
+      "tn": 79,
+      "fp": 1,
+      "fn": 1
+    },
+    {
+      "fold": 4,
+      "seed": 442,
+      "best_epoch": 10,
+      "best_val_acc": 1.0,
+      "test_accuracy": 1.0,
+      "test_balanced_accuracy": 1.0,
+      "test_macro_precision": 1.0,
+      "test_macro_recall": 1.0,
+      "test_macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          80,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "train_duration_sec": 8.987733125686646,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "tp": 20,
+      "tn": 80,
+      "fp": 0,
+      "fn": 0
+    }
+  ],
+  "mean_sensitivity": 0.97,
+  "std_sensitivity": 0.02738612787525833,
+  "mean_specificity": 0.96,
+  "std_specificity": 0.04454632420301368,
+  "pooled_sensitivity": 0.97,
+  "pooled_specificity": 0.96,
+  "pooled_tp": 97,
+  "pooled_tn": 384,
+  "pooled_fp": 16,
+  "pooled_fn": 3
+}

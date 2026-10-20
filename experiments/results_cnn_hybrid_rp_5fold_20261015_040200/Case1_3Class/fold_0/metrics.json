@@ -1,0 +1,28 @@
+{
+  "fold_idx": 0,
+  "test_accuracy": 0.9,
+  "balanced_accuracy": 0.875,
+  "macro_precision": 0.8930905695611578,
+  "macro_recall": 0.875,
+  "macro_f1": 0.8817842232476378,
+  "confusion_matrix": [
+    [
+      17,
+      0,
+      3
+    ],
+    [
+      4,
+      16,
+      0
+    ],
+    [
+      0,
+      1,
+      39
+    ]
+  ],
+  "best_epoch": 5,
+  "best_val_accuracy": 0.96875,
+  "train_duration_sec": 7.510686159133911
+}

@@ -1,0 +1,179 @@
+{
+  "case_id": "Case3",
+  "case_name": "Case 3: Binary Interictal vs Ictal (D vs E, Exclude A, B, C)",
+  "num_classes": 2,
+  "n_samples": 200,
+  "mean_accuracy": 0.9700000000000001,
+  "std_accuracy": 0.027386127875258334,
+  "mean_balanced_accuracy": 0.9700000000000001,
+  "std_balanced_accuracy": 0.027386127875258334,
+  "mean_macro_f1": 0.9699498746867169,
+  "std_macro_f1": 0.02743193352080464,
+  "pooled_accuracy": 0.97,
+  "pooled_balanced_accuracy": 0.97,
+  "pooled_macro_precision": 0.97,
+  "pooled_macro_recall": 0.97,
+  "pooled_macro_f1": 0.97,
+  "pooled_confusion_matrix": [
+    [
+      97,
+      3
+    ],
+    [
+      3,
+      97
+    ]
+  ],
+  "fold_metrics": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "best_epoch": 28,
+      "best_val_acc": 1.0,
+      "test_accuracy": 1.0,
+      "test_balanced_accuracy": 1.0,
+      "test_macro_precision": 1.0,
+      "test_macro_recall": 1.0,
+      "test_macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "train_duration_sec": 5.213737964630127,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "tp": 20,
+      "tn": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "fold": 1,
+      "seed": 142,
+      "best_epoch": 22,
+      "best_val_acc": 1.0,
+      "test_accuracy": 1.0,
+      "test_balanced_accuracy": 1.0,
+      "test_macro_precision": 1.0,
+      "test_macro_recall": 1.0,
+      "test_macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "train_duration_sec": 4.553606271743774,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "tp": 20,
+      "tn": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "fold": 2,
+      "seed": 242,
+      "best_epoch": 34,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.95,
+      "test_balanced_accuracy": 0.95,
+      "test_macro_precision": 0.9545454545454546,
+      "test_macro_recall": 0.95,
+      "test_macro_f1": 0.949874686716792,
+      "confusion_matrix": [
+        [
+          18,
+          2
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "train_duration_sec": 5.298180818557739,
+      "sensitivity": 1.0,
+      "specificity": 0.9,
+      "tp": 20,
+      "tn": 18,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "fold": 3,
+      "seed": 342,
+      "best_epoch": 34,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.95,
+      "test_balanced_accuracy": 0.95,
+      "test_macro_precision": 0.9545454545454546,
+      "test_macro_recall": 0.95,
+      "test_macro_f1": 0.949874686716792,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          2,
+          18
+        ]
+      ],
+      "train_duration_sec": 5.28975772857666,
+      "sensitivity": 0.9,
+      "specificity": 1.0,
+      "tp": 18,
+      "tn": 20,
+      "fp": 0,
+      "fn": 2
+    },
+    {
+      "fold": 4,
+      "seed": 442,
+      "best_epoch": 26,
+      "best_val_acc": 1.0,
+      "test_accuracy": 0.95,
+      "test_balanced_accuracy": 0.95,
+      "test_macro_precision": 0.95,
+      "test_macro_recall": 0.95,
+      "test_macro_f1": 0.95,
+      "confusion_matrix": [
+        [
+          19,
+          1
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "train_duration_sec": 5.142781019210815,
+      "sensitivity": 0.95,
+      "specificity": 0.95,
+      "tp": 19,
+      "tn": 19,
+      "fp": 1,
+      "fn": 1
+    }
+  ],
+  "mean_sensitivity": 0.97,
+  "std_sensitivity": 0.04472135954999579,
+  "mean_specificity": 0.97,
+  "std_specificity": 0.04472135954999579,
+  "pooled_sensitivity": 0.97,
+  "pooled_specificity": 0.97,
+  "pooled_tp": 97,
+  "pooled_tn": 97,
+  "pooled_fp": 3,
+  "pooled_fn": 3
+}

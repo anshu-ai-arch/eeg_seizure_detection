@@ -1,0 +1,57 @@
+{
+  "case_key": "Case2_Binary",
+  "case_name": "Case 2: Binary (A+B+C+D vs E)",
+  "num_classes": 2,
+  "device": "mps",
+  "total_training_duration_sec": 5.36,
+  "avg_epoch_duration_sec": 0.536,
+  "total_epochs_trained": 10,
+  "best_epoch": 5,
+  "best_val_accuracy": 0.975,
+  "final_learning_rate": 0.0025,
+  "test_metrics": {
+    "test_loss": 0.27018,
+    "test_accuracy": 0.9,
+    "balanced_accuracy": 0.8625,
+    "macro_f1": 0.84931,
+    "macro_precision": 0.838,
+    "macro_recall": 0.8625,
+    "confusion_matrix": [
+      [
+        74,
+        6
+      ],
+      [
+        4,
+        16
+      ]
+    ],
+    "classification_report": {
+      "non_ictal (A+B+C+D)": {
+        "precision": 0.9487179487179487,
+        "recall": 0.925,
+        "f1-score": 0.9367088607594937,
+        "support": 80.0
+      },
+      "ictal (E)": {
+        "precision": 0.7272727272727273,
+        "recall": 0.8,
+        "f1-score": 0.7619047619047619,
+        "support": 20.0
+      },
+      "accuracy": 0.9,
+      "macro avg": {
+        "precision": 0.837995337995338,
+        "recall": 0.8625,
+        "f1-score": 0.8493068113321278,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.9044289044289044,
+        "recall": 0.9,
+        "f1-score": 0.9017480409885473,
+        "support": 100.0
+      }
+    }
+  }
+}

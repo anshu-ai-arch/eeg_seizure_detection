@@ -1,0 +1,55 @@
+{
+  "fold_idx": 4,
+  "random_seed": 442,
+  "test_accuracy": 0.8625,
+  "balanced_accuracy": 0.8333333333333334,
+  "macro_precision": 0.8544444444444445,
+  "macro_recall": 0.8333333333333334,
+  "macro_f1": 0.8351851851851851,
+  "confusion_matrix": [
+    [
+      17,
+      1,
+      2
+    ],
+    [
+      6,
+      14,
+      0
+    ],
+    [
+      2,
+      0,
+      38
+    ]
+  ],
+  "per_class": {
+    "A (healthy open)": {
+      "class_index": 0,
+      "precision": 0.68,
+      "recall": 0.85,
+      "f1": 0.7555555555555555,
+      "support": 20
+    },
+    "B (healthy closed)": {
+      "class_index": 1,
+      "precision": 0.9333333333333333,
+      "recall": 0.7,
+      "f1": 0.8,
+      "support": 20
+    },
+    "C+D (interictal)": {
+      "class_index": 2,
+      "precision": 0.95,
+      "recall": 0.95,
+      "f1": 0.95,
+      "support": 40
+    }
+  },
+  "best_epoch": 13,
+  "best_val_accuracy": 0.9375,
+  "best_val_loss": 0.25557704269886017,
+  "total_epochs_trained": 20,
+  "early_stopped": true,
+  "train_duration_sec": 7.62653112411499
+}

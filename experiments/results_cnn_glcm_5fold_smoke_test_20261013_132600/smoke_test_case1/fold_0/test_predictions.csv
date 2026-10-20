@@ -1,0 +1,81 @@
+recording_id,true_label,true_class_name,predicted_label,predicted_class_name,correct,prob_class_0,prob_class_1,prob_class_2
+F002,2,C+D (interictal),1,B (healthy closed),0,0.369722,0.49251,0.137768
+F003,2,C+D (interictal),1,B (healthy closed),0,0.369712,0.492306,0.137982
+F022,2,C+D (interictal),1,B (healthy closed),0,0.369738,0.492223,0.138038
+F031,2,C+D (interictal),1,B (healthy closed),0,0.369704,0.492518,0.137778
+F032,2,C+D (interictal),1,B (healthy closed),0,0.369712,0.492361,0.137927
+F043,2,C+D (interictal),1,B (healthy closed),0,0.369713,0.492476,0.137811
+F044,2,C+D (interictal),1,B (healthy closed),0,0.369765,0.492365,0.137871
+F047,2,C+D (interictal),1,B (healthy closed),0,0.369728,0.492415,0.137857
+F048,2,C+D (interictal),1,B (healthy closed),0,0.369731,0.492355,0.137914
+F053,2,C+D (interictal),1,B (healthy closed),0,0.36978,0.492331,0.137889
+F063,2,C+D (interictal),1,B (healthy closed),0,0.369712,0.49238,0.137908
+F064,2,C+D (interictal),1,B (healthy closed),0,0.369763,0.492345,0.137892
+F065,2,C+D (interictal),1,B (healthy closed),0,0.369724,0.492506,0.13777
+F077,2,C+D (interictal),1,B (healthy closed),0,0.369715,0.492536,0.137749
+F081,2,C+D (interictal),1,B (healthy closed),0,0.369735,0.492384,0.13788
+F088,2,C+D (interictal),1,B (healthy closed),0,0.369689,0.492391,0.13792
+F091,2,C+D (interictal),1,B (healthy closed),0,0.36977,0.492267,0.137964
+F094,2,C+D (interictal),1,B (healthy closed),0,0.369757,0.492386,0.137857
+F095,2,C+D (interictal),1,B (healthy closed),0,0.369774,0.492226,0.138
+F098,2,C+D (interictal),1,B (healthy closed),0,0.369701,0.492351,0.137948
+F099,2,C+D (interictal),1,B (healthy closed),0,0.369751,0.492319,0.13793
+N001,2,C+D (interictal),1,B (healthy closed),0,0.369767,0.49243,0.137803
+N002,2,C+D (interictal),1,B (healthy closed),0,0.369779,0.492369,0.137852
+N007,2,C+D (interictal),1,B (healthy closed),0,0.369802,0.492284,0.137914
+N012,2,C+D (interictal),1,B (healthy closed),0,0.369772,0.492344,0.137883
+N020,2,C+D (interictal),1,B (healthy closed),0,0.369782,0.492308,0.137911
+N025,2,C+D (interictal),1,B (healthy closed),0,0.369777,0.492327,0.137896
+N026,2,C+D (interictal),1,B (healthy closed),0,0.369796,0.492335,0.137869
+N030,2,C+D (interictal),1,B (healthy closed),0,0.369789,0.492256,0.137954
+N037,2,C+D (interictal),1,B (healthy closed),0,0.369771,0.49236,0.137869
+N046,2,C+D (interictal),1,B (healthy closed),0,0.369758,0.492183,0.138059
+N047,2,C+D (interictal),1,B (healthy closed),0,0.369764,0.492362,0.137874
+N054,2,C+D (interictal),1,B (healthy closed),0,0.369786,0.492185,0.138029
+N055,2,C+D (interictal),1,B (healthy closed),0,0.369783,0.492329,0.137888
+N059,2,C+D (interictal),1,B (healthy closed),0,0.369735,0.492335,0.13793
+N073,2,C+D (interictal),1,B (healthy closed),0,0.369767,0.492347,0.137886
+N078,2,C+D (interictal),1,B (healthy closed),0,0.36978,0.492405,0.137816
+N081,2,C+D (interictal),1,B (healthy closed),0,0.369775,0.492216,0.138009
+N093,2,C+D (interictal),1,B (healthy closed),0,0.369803,0.492358,0.137839
+N097,2,C+D (interictal),1,B (healthy closed),0,0.369771,0.492415,0.137813
+O006,1,B (healthy closed),1,B (healthy closed),1,0.369701,0.492542,0.137758
+O009,1,B (healthy closed),1,B (healthy closed),1,0.369734,0.492439,0.137826
+O013,1,B (healthy closed),1,B (healthy closed),1,0.369708,0.492492,0.1378
+O022,1,B (healthy closed),1,B (healthy closed),1,0.369724,0.492406,0.13787
+O023,1,B (healthy closed),1,B (healthy closed),1,0.369684,0.492553,0.137764
+O029,1,B (healthy closed),1,B (healthy closed),1,0.369699,0.492548,0.137753
+O030,1,B (healthy closed),1,B (healthy closed),1,0.369695,0.492529,0.137777
+O031,1,B (healthy closed),1,B (healthy closed),1,0.36969,0.492531,0.137779
+O043,1,B (healthy closed),1,B (healthy closed),1,0.369726,0.492455,0.137819
+O046,1,B (healthy closed),1,B (healthy closed),1,0.369715,0.492431,0.137854
+O047,1,B (healthy closed),1,B (healthy closed),1,0.369689,0.492566,0.137745
+O055,1,B (healthy closed),1,B (healthy closed),1,0.369701,0.492537,0.137761
+O066,1,B (healthy closed),1,B (healthy closed),1,0.369699,0.492564,0.137737
+O077,1,B (healthy closed),1,B (healthy closed),1,0.369699,0.492564,0.137737
+O078,1,B (healthy closed),1,B (healthy closed),1,0.369699,0.49256,0.137742
+O082,1,B (healthy closed),1,B (healthy closed),1,0.369697,0.492543,0.13776
+O083,1,B (healthy closed),1,B (healthy closed),1,0.36969,0.492584,0.137726
+O088,1,B (healthy closed),1,B (healthy closed),1,0.369693,0.492547,0.13776
+O099,1,B (healthy closed),1,B (healthy closed),1,0.369686,0.492568,0.137746
+O100,1,B (healthy closed),1,B (healthy closed),1,0.369666,0.492475,0.137859
+Z013,0,A (healthy open),1,B (healthy closed),0,0.369688,0.492452,0.13786
+Z015,0,A (healthy open),1,B (healthy closed),0,0.36972,0.492488,0.137792
+Z019,0,A (healthy open),1,B (healthy closed),0,0.369701,0.492451,0.137848
+Z025,0,A (healthy open),1,B (healthy closed),0,0.369719,0.492487,0.137793
+Z028,0,A (healthy open),1,B (healthy closed),0,0.369697,0.492514,0.137789
+Z030,0,A (healthy open),1,B (healthy closed),0,0.369728,0.492463,0.137808
+Z031,0,A (healthy open),1,B (healthy closed),0,0.369689,0.492502,0.13781
+Z033,0,A (healthy open),1,B (healthy closed),0,0.369694,0.492557,0.137749
+Z034,0,A (healthy open),1,B (healthy closed),0,0.369697,0.492557,0.137746
+Z035,0,A (healthy open),1,B (healthy closed),0,0.369742,0.492379,0.137879
+Z036,0,A (healthy open),1,B (healthy closed),0,0.369699,0.492538,0.137763
+Z043,0,A (healthy open),1,B (healthy closed),0,0.369688,0.49258,0.137732
+Z051,0,A (healthy open),1,B (healthy closed),0,0.369702,0.492538,0.13776
+Z060,0,A (healthy open),1,B (healthy closed),0,0.3697,0.49254,0.13776
+Z066,0,A (healthy open),1,B (healthy closed),0,0.369699,0.492529,0.137773
+Z075,0,A (healthy open),1,B (healthy closed),0,0.369688,0.492485,0.137827
+Z079,0,A (healthy open),1,B (healthy closed),0,0.369701,0.492548,0.137751
+Z083,0,A (healthy open),1,B (healthy closed),0,0.369695,0.492551,0.137754
+Z084,0,A (healthy open),1,B (healthy closed),0,0.3697,0.492525,0.137775
+Z094,0,A (healthy open),1,B (healthy closed),0,0.369719,0.492475,0.137805
